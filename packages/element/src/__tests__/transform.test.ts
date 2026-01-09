@@ -1,4 +1,4 @@
-import { pointFrom } from "@excalidraw/math";
+import { pointFrom } from "@misenkashari/excalidraw-math";
 import { vi } from "vitest";
 
 import {

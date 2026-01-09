@@ -8,37 +8,37 @@ import {
   isTestEnv,
   getVerticalOffset,
   applyDarkModeFilter,
-} from "@excalidraw/common";
-import { normalizeLink, toValidURL } from "@excalidraw/common";
-import { hashString } from "@excalidraw/element";
-import { getUncroppedWidthAndHeight } from "@excalidraw/element";
+} from "@misenkashari/excalidraw-common";
+import { normalizeLink, toValidURL } from "@misenkashari/excalidraw-common";
+import { hashString } from "@misenkashari/excalidraw-element";
+import { getUncroppedWidthAndHeight } from "@misenkashari/excalidraw-element";
 import {
   createPlaceholderEmbeddableLabel,
   getEmbedLink,
-} from "@excalidraw/element";
-import { LinearElementEditor } from "@excalidraw/element";
-import { getBoundTextElement, getContainerElement } from "@excalidraw/element";
-import { getLineHeightInPx } from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
+import { LinearElementEditor } from "@misenkashari/excalidraw-element";
+import { getBoundTextElement, getContainerElement } from "@misenkashari/excalidraw-element";
+import { getLineHeightInPx } from "@misenkashari/excalidraw-element";
 import {
   isArrowElement,
   isIframeLikeElement,
   isInitializedImageElement,
   isTextElement,
-} from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
 
-import { getContainingFrame } from "@excalidraw/element";
+import { getContainingFrame } from "@misenkashari/excalidraw-element";
 
-import { getCornerRadius, isPathALoop } from "@excalidraw/element";
+import { getCornerRadius, isPathALoop } from "@misenkashari/excalidraw-element";
 
-import { ShapeCache } from "@excalidraw/element";
+import { ShapeCache } from "@misenkashari/excalidraw-element";
 
-import { getElementAbsoluteCoords } from "@excalidraw/element";
+import { getElementAbsoluteCoords } from "@misenkashari/excalidraw-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawTextElementWithContainer,
   NonDeletedExcalidrawElement,
-} from "@excalidraw/element/types";
+} from "@misenkashari/excalidraw-element/types";
 
 import type { RenderableElementsMap, SVGRenderConfig } from "../scene/types";
 import type { AppState, BinaryFiles } from "../types";

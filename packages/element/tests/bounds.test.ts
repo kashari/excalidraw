@@ -1,8 +1,8 @@
-import { pointFrom } from "@excalidraw/math";
+import { pointFrom } from "@misenkashari/excalidraw-math";
 
-import { arrayToMap, ROUNDNESS } from "@excalidraw/common";
+import { arrayToMap, ROUNDNESS } from "@misenkashari/excalidraw-common";
 
-import type { LocalPoint } from "@excalidraw/math";
+import type { LocalPoint } from "@misenkashari/excalidraw-math";
 
 import { getElementAbsoluteCoords, getElementBounds } from "../src/bounds";
 

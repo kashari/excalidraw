@@ -5,20 +5,20 @@ import {
   VERTICAL_ALIGN,
   arrayToMap,
   getFontString,
-} from "@excalidraw/common";
+} from "@misenkashari/excalidraw-common";
 import {
   getOriginalContainerHeightFromCache,
   isBoundToContainer,
   resetOriginalContainerCache,
   updateOriginalContainerCache,
-} from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
 
 import {
   computeBoundTextPosition,
   computeContainerDimensionForBoundText,
   getBoundTextElement,
   redrawTextBoundingBox,
-} from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
 
 import {
   hasBoundTextElement,
@@ -26,26 +26,26 @@ import {
   isTextBindableContainer,
   isTextElement,
   isUsingAdaptiveRadius,
-} from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
 
-import { measureText } from "@excalidraw/element";
+import { measureText } from "@misenkashari/excalidraw-element";
 
-import { syncMovedIndices } from "@excalidraw/element";
+import { syncMovedIndices } from "@misenkashari/excalidraw-element";
 
-import { newElement } from "@excalidraw/element";
+import { newElement } from "@misenkashari/excalidraw-element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@misenkashari/excalidraw-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   ExcalidrawTextContainer,
   ExcalidrawTextElement,
-} from "@excalidraw/element/types";
+} from "@misenkashari/excalidraw-element/types";
 
-import type { Mutable } from "@excalidraw/common/utility-types";
+import type { Mutable } from "@misenkashari/excalidraw-common/utility-types";
 
-import type { Radians } from "@excalidraw/math";
+import type { Radians } from "@misenkashari/excalidraw-math";
 
 import { register } from "./register";
 

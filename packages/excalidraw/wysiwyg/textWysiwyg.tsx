@@ -10,15 +10,15 @@ import {
   isTestEnv,
   MIME_TYPES,
   applyDarkModeFilter,
-} from "@excalidraw/common";
+} from "@misenkashari/excalidraw-common";
 
 import {
   originalContainerCache,
   updateOriginalContainerCache,
-} from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
 
-import { LinearElementEditor } from "@excalidraw/element";
-import { bumpVersion } from "@excalidraw/element";
+import { LinearElementEditor } from "@misenkashari/excalidraw-element";
+import { bumpVersion } from "@misenkashari/excalidraw-element";
 import {
   getBoundTextElementId,
   getContainerElement,
@@ -29,22 +29,22 @@ import {
   computeContainerDimensionForBoundText,
   computeBoundTextPosition,
   getBoundTextElement,
-} from "@excalidraw/element";
-import { getTextWidth } from "@excalidraw/element";
-import { normalizeText } from "@excalidraw/element";
-import { wrapText } from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
+import { getTextWidth } from "@misenkashari/excalidraw-element";
+import { normalizeText } from "@misenkashari/excalidraw-element";
+import { wrapText } from "@misenkashari/excalidraw-element";
 import {
   isArrowElement,
   isBoundToContainer,
   isTextElement,
-} from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
 
 import type {
   ExcalidrawElement,
   ExcalidrawLinearElement,
   ExcalidrawTextElementWithContainer,
   ExcalidrawTextElement,
-} from "@excalidraw/element/types";
+} from "@misenkashari/excalidraw-element/types";
 
 import { actionSaveToActiveFile } from "../actions";
 

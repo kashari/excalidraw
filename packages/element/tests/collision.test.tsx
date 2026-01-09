@@ -1,8 +1,8 @@
-import { type GlobalPoint, type LocalPoint, pointFrom } from "@excalidraw/math";
-import { Excalidraw } from "@excalidraw/excalidraw";
-import { UI } from "@excalidraw/excalidraw/tests/helpers/ui";
-import "@excalidraw/utils/test-utils";
-import { render } from "@excalidraw/excalidraw/tests/test-utils";
+import { type GlobalPoint, type LocalPoint, pointFrom } from "@misenkashari/excalidraw-math";
+import { Excalidraw } from "@misenkashari/excalidraw";
+import { UI } from "@misenkashari/excalidraw/tests/helpers/ui";
+import "@misenkashari/excalidraw-utils/test-utils";
+import { render } from "@misenkashari/excalidraw/tests/test-utils";
 
 import { hitElementItself } from "../src/collision";
 

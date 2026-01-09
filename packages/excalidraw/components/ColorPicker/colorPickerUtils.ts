@@ -2,11 +2,11 @@ import {
   isTransparent,
   MAX_CUSTOM_COLORS_USED_IN_CANVAS,
   tinycolor,
-} from "@excalidraw/common";
+} from "@misenkashari/excalidraw-common";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@misenkashari/excalidraw-element/types";
 
-import type { ColorPickerColor, ColorPaletteCustom } from "@excalidraw/common";
+import type { ColorPickerColor, ColorPaletteCustom } from "@misenkashari/excalidraw-common";
 
 import { atom } from "../../editor-jotai";
 

@@ -2,7 +2,7 @@ import {
   applyDarkModeFilter,
   COLOR_PALETTE,
   rgbToHex,
-} from "@excalidraw/common";
+} from "@misenkashari/excalidraw-common";
 
 describe("applyDarkModeFilter", () => {
   describe("basic transformations", () => {

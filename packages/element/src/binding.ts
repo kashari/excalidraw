@@ -4,7 +4,7 @@ import {
   getFeatureFlag,
   invariant,
   isTransparent,
-} from "@excalidraw/common";
+} from "@misenkashari/excalidraw-common";
 
 import {
   PRECISION,
@@ -19,12 +19,12 @@ import {
   vectorNormalize,
   vectorScale,
   type GlobalPoint,
-} from "@excalidraw/math";
+} from "@misenkashari/excalidraw-math";
 
-import type { LineSegment, LocalPoint, Radians } from "@excalidraw/math";
-import type { AppState } from "@excalidraw/excalidraw/types";
-import type { MapEntry, Mutable } from "@excalidraw/common/utility-types";
-import type { Bounds } from "@excalidraw/common";
+import type { LineSegment, LocalPoint, Radians } from "@misenkashari/excalidraw-math";
+import type { AppState } from "@misenkashari/excalidraw/types";
+import type { MapEntry, Mutable } from "@misenkashari/excalidraw-common/utility-types";
+import type { Bounds } from "@misenkashari/excalidraw-common";
 
 import {
   doBoundsIntersect,

@@ -1,15 +1,15 @@
-import { arrayToMap } from "@excalidraw/common";
-import { isPointWithinBounds, pointFrom } from "@excalidraw/math";
-import { doLineSegmentsIntersect } from "@excalidraw/utils/bbox";
-import { elementsOverlappingBBox } from "@excalidraw/utils/withinBounds";
+import { arrayToMap } from "@misenkashari/excalidraw-common";
+import { isPointWithinBounds, pointFrom } from "@misenkashari/excalidraw-math";
+import { doLineSegmentsIntersect } from "@misenkashari/excalidraw-utils/bbox";
+import { elementsOverlappingBBox } from "@misenkashari/excalidraw-utils/withinBounds";
 
 import type {
   AppClassProperties,
   AppState,
   StaticCanvasAppState,
-} from "@excalidraw/excalidraw/types";
+} from "@misenkashari/excalidraw/types";
 
-import type { ReadonlySetLike } from "@excalidraw/common/utility-types";
+import type { ReadonlySetLike } from "@misenkashari/excalidraw-common/utility-types";
 
 import { getElementsWithinSelection, getSelectedElements } from "./selection";
 import { getElementsInGroup, selectGroupsFromGivenElements } from "./groups";

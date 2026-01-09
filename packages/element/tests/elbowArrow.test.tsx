@@ -1,21 +1,21 @@
-import { ARROW_TYPE } from "@excalidraw/common";
-import { pointFrom } from "@excalidraw/math";
-import { Excalidraw } from "@excalidraw/excalidraw";
-import { actionSelectAll } from "@excalidraw/excalidraw/actions";
-import { actionDuplicateSelection } from "@excalidraw/excalidraw/actions/actionDuplicateSelection";
-import { API } from "@excalidraw/excalidraw/tests/helpers/api";
-import { Pointer, UI } from "@excalidraw/excalidraw/tests/helpers/ui";
+import { ARROW_TYPE } from "@misenkashari/excalidraw-common";
+import { pointFrom } from "@misenkashari/excalidraw-math";
+import { Excalidraw } from "@misenkashari/excalidraw";
+import { actionSelectAll } from "@misenkashari/excalidraw/actions";
+import { actionDuplicateSelection } from "@misenkashari/excalidraw/actions/actionDuplicateSelection";
+import { API } from "@misenkashari/excalidraw/tests/helpers/api";
+import { Pointer, UI } from "@misenkashari/excalidraw/tests/helpers/ui";
 import {
   act,
   fireEvent,
   GlobalTestState,
   queryByTestId,
   render,
-} from "@excalidraw/excalidraw/tests/test-utils";
-import "@excalidraw/utils/test-utils";
-import { bindBindingElement } from "@excalidraw/element";
+} from "@misenkashari/excalidraw/tests/test-utils";
+import "@misenkashari/excalidraw-utils/test-utils";
+import { bindBindingElement } from "@misenkashari/excalidraw-element";
 
-import type { LocalPoint } from "@excalidraw/math";
+import type { LocalPoint } from "@misenkashari/excalidraw-math";
 
 import { Scene } from "../src/Scene";
 

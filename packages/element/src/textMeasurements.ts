@@ -5,7 +5,7 @@ import {
   getFontString,
   isTestEnv,
   normalizeEOL,
-} from "@excalidraw/common";
+} from "@misenkashari/excalidraw-common";
 
 import type { FontString, ExcalidrawTextElement } from "./types";
 

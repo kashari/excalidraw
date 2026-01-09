@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import { useCallback, useEffect, useRef, useState } from "react";
 
-import { isTransparent, KEYS } from "@excalidraw/common";
+import { isTransparent, KEYS } from "@misenkashari/excalidraw-common";
 
 import tinycolor from "tinycolor2";
 

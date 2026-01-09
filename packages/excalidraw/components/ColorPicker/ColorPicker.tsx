@@ -6,11 +6,11 @@ import {
   COLOR_OUTLINE_CONTRAST_THRESHOLD,
   COLOR_PALETTE,
   isWritableElement,
-} from "@excalidraw/common";
+} from "@misenkashari/excalidraw-common";
 
-import type { ColorTuple, ColorPaletteCustom } from "@excalidraw/common";
+import type { ColorTuple, ColorPaletteCustom } from "@misenkashari/excalidraw-common";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@misenkashari/excalidraw-element/types";
 
 import { useAtom } from "../../editor-jotai";
 import { t } from "../../i18n";

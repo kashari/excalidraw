@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import { DEFAULT_UI_OPTIONS, isShallowEqual } from "@excalidraw/common";
+import { DEFAULT_UI_OPTIONS, isShallowEqual } from "@misenkashari/excalidraw-common";
 
 import App from "./components/App";
 import { InitializeApp } from "./components/InitializeApp";
@@ -222,10 +222,10 @@ export {
   hashElementsVersion,
   hashString,
   getNonDeletedElements,
-} from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
 
-export { getTextFromElements } from "@excalidraw/element";
-export { isInvisiblySmallElement } from "@excalidraw/element";
+export { getTextFromElements } from "@misenkashari/excalidraw-element";
+export { isInvisiblySmallElement } from "@misenkashari/excalidraw-element";
 
 export { defaultLang, useI18n, languages } from "./i18n";
 export {
@@ -242,7 +242,7 @@ export {
   exportToBlob,
   exportToSvg,
   exportToClipboard,
-} from "@excalidraw/utils/export";
+} from "@misenkashari/excalidraw-utils/export";
 
 export { serializeAsJSON, serializeLibraryAsJSON } from "./data/json";
 export {
@@ -251,7 +251,7 @@ export {
   loadLibraryFromBlob,
 } from "./data/blob";
 export { mergeLibraryItems, getLibraryItemsHash } from "./data/library";
-export { isLinearElement } from "@excalidraw/element";
+export { isLinearElement } from "@misenkashari/excalidraw-element";
 
 export {
   FONT_FAMILY,
@@ -264,15 +264,15 @@ export {
   sceneCoordsToViewportCoords,
   viewportCoordsToSceneCoords,
   getFormFactor,
-} from "@excalidraw/common";
+} from "@misenkashari/excalidraw-common";
 
 export {
   mutateElement,
   newElementWith,
   bumpVersion,
-} from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
 
-export { CaptureUpdateAction } from "@excalidraw/element";
+export { CaptureUpdateAction } from "@misenkashari/excalidraw-element";
 
 export { parseLibraryTokensFromUrl, useHandleLibrary } from "./data/library";
 
@@ -295,16 +295,16 @@ export {
   getCommonBounds,
   getVisibleSceneBounds,
   convertToExcalidrawElements,
-} from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
 
 export {
   elementsOverlappingBBox,
   isElementInsideBBox,
   elementPartiallyOverlapsWithOrContainsBBox,
-} from "@excalidraw/utils/withinBounds";
+} from "@misenkashari/excalidraw-utils/withinBounds";
 
 export { DiagramToCodePlugin } from "./components/DiagramToCodePlugin/DiagramToCodePlugin";
 export { getDataURL } from "./data/blob";
-export { isElementLink } from "@excalidraw/element";
+export { isElementLink } from "@misenkashari/excalidraw-element";
 
-export { setCustomTextMetricsProvider } from "@excalidraw/element";
+export { setCustomTextMetricsProvider } from "@misenkashari/excalidraw-element";

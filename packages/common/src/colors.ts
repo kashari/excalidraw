@@ -1,10 +1,10 @@
 import oc from "open-color";
 import tinycolor from "tinycolor2";
 
-import { clamp } from "@excalidraw/math";
-import { degreesToRadians } from "@excalidraw/math";
+import { clamp } from "@misenkashari/excalidraw-math";
+import { degreesToRadians } from "@misenkashari/excalidraw-math";
 
-import type { Degrees } from "@excalidraw/math";
+import type { Degrees } from "@misenkashari/excalidraw-math";
 
 import type { Merge } from "./utility-types";
 

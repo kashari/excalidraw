@@ -1,6 +1,6 @@
 {
   "name": "@misenkashari/excalidraw-math",
-  "version": "1.0.3",
+  "version": "1.11.2",
   "type": "module",
   "types": "./dist/types/math/src/index.d.ts",
   "main": "./dist/prod/index.js",
@@ -61,6 +61,6 @@
     "build:esm": "rimraf dist && node ../../scripts/buildBase.js && yarn gen:types"
   },
   "dependencies": {
-    "@misenkashari/excalidraw-common": "1.0.3"
+    "@misenkashari/excalidraw-common": "1.11.0"
   }
 }

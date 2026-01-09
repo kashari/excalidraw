@@ -5,20 +5,20 @@ import {
   pointRotateRads,
   type Radians,
   type LocalPoint,
-} from "@excalidraw/math";
+} from "@misenkashari/excalidraw-math";
 
 import {
   MIN_FONT_SIZE,
   SHIFT_LOCKING_ANGLE,
   rescalePoints,
   getFontString,
-} from "@excalidraw/common";
+} from "@misenkashari/excalidraw-common";
 
-import type { GlobalPoint } from "@excalidraw/math";
+import type { GlobalPoint } from "@misenkashari/excalidraw-math";
 
-import type { PointerDownState } from "@excalidraw/excalidraw/types";
+import type { PointerDownState } from "@misenkashari/excalidraw/types";
 
-import type { Mutable } from "@excalidraw/common/utility-types";
+import type { Mutable } from "@misenkashari/excalidraw-common/utility-types";
 
 import {
   getArrowLocalFixedPoints,

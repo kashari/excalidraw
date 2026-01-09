@@ -5,7 +5,7 @@ import {
   type GlobalPoint,
   type LocalPoint,
   type Radians,
-} from "@excalidraw/math";
+} from "@misenkashari/excalidraw-math";
 import oc from "open-color";
 
 import {
@@ -16,7 +16,7 @@ import {
   getFeatureFlag,
   invariant,
   THEME,
-} from "@excalidraw/common";
+} from "@misenkashari/excalidraw-common";
 
 import {
   deconstructDiamondElement,
@@ -33,23 +33,23 @@ import {
   isLineElement,
   isTextElement,
   LinearElementEditor,
-} from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
 
-import { renderSelectionElement } from "@excalidraw/element";
+import { renderSelectionElement } from "@misenkashari/excalidraw-element";
 
 import {
   getElementsInGroup,
   getSelectedGroupIds,
   isSelectedViaGroup,
   selectGroupsFromGivenElements,
-} from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
 
-import { getCommonBounds, getElementAbsoluteCoords } from "@excalidraw/element";
+import { getCommonBounds, getElementAbsoluteCoords } from "@misenkashari/excalidraw-element";
 
 import type {
   TransformHandles,
   TransformHandleType,
-} from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
 
 import type {
   ElementsMap,
@@ -62,7 +62,7 @@ import type {
   GroupId,
   NonDeleted,
   NonDeletedSceneElementsMap,
-} from "@excalidraw/element/types";
+} from "@misenkashari/excalidraw-element/types";
 
 import { renderSnaps } from "../renderer/renderSnaps";
 import { roundRect } from "../renderer/roundRect";

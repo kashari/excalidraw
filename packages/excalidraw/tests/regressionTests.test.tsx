@@ -7,11 +7,11 @@ import {
   KEYS,
   reseed,
   MQ_MIN_WIDTH_DESKTOP,
-} from "@excalidraw/common";
+} from "@misenkashari/excalidraw-common";
 
-import { setDateTimeForTests } from "@excalidraw/common";
+import { setDateTimeForTests } from "@misenkashari/excalidraw-common";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@misenkashari/excalidraw-element/types";
 
 import { Excalidraw } from "../index";
 import * as StaticScene from "../renderer/staticScene";

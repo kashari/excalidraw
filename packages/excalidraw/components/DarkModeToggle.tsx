@@ -1,6 +1,6 @@
-import { THEME } from "@excalidraw/common";
+import { THEME } from "@misenkashari/excalidraw-common";
 
-import type { Theme } from "@excalidraw/element/types";
+import type { Theme } from "@misenkashari/excalidraw-element/types";
 
 import { t } from "../i18n";
 

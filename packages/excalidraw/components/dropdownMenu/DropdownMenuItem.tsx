@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 
-import { THEME } from "@excalidraw/common";
+import { THEME } from "@misenkashari/excalidraw-common";
 
-import type { ValueOf } from "@excalidraw/common/utility-types";
+import type { ValueOf } from "@misenkashari/excalidraw-common/utility-types";
 
 import { useExcalidrawAppState } from "../App";
 

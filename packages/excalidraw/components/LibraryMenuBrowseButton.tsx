@@ -1,4 +1,4 @@
-import { VERSIONS } from "@excalidraw/common";
+import { VERSIONS } from "@misenkashari/excalidraw-common";
 
 import { t } from "../i18n";
 

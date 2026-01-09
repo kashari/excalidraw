@@ -1,19 +1,19 @@
-import { clamp, round } from "@excalidraw/math";
+import { clamp, round } from "@misenkashari/excalidraw-math";
 
-import { MIN_WIDTH_OR_HEIGHT } from "@excalidraw/common";
+import { MIN_WIDTH_OR_HEIGHT } from "@misenkashari/excalidraw-common";
 import {
   MINIMAL_CROP_SIZE,
   getUncroppedWidthAndHeight,
-} from "@excalidraw/element";
-import { resizeSingleElement } from "@excalidraw/element";
-import { isImageElement } from "@excalidraw/element";
-import { isFrameLikeElement } from "@excalidraw/element";
-import { getElementsInResizingFrame } from "@excalidraw/element";
-import { replaceAllElementsInFrame } from "@excalidraw/element";
+} from "@misenkashari/excalidraw-element";
+import { resizeSingleElement } from "@misenkashari/excalidraw-element";
+import { isImageElement } from "@misenkashari/excalidraw-element";
+import { isFrameLikeElement } from "@misenkashari/excalidraw-element";
+import { getElementsInResizingFrame } from "@misenkashari/excalidraw-element";
+import { replaceAllElementsInFrame } from "@misenkashari/excalidraw-element";
 
-import type { ExcalidrawElement } from "@excalidraw/element/types";
+import type { ExcalidrawElement } from "@misenkashari/excalidraw-element/types";
 
-import type { Scene } from "@excalidraw/element";
+import type { Scene } from "@misenkashari/excalidraw-element";
 
 import DragInput from "./DragInput";
 import { getStepSizedValue, isPropertyEditable } from "./utils";

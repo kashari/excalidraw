@@ -1,11 +1,11 @@
-import { getFontString } from "@excalidraw/common";
+import { getFontString } from "@misenkashari/excalidraw-common";
 
-import { newElementWith } from "@excalidraw/element";
-import { measureText } from "@excalidraw/element";
+import { newElementWith } from "@misenkashari/excalidraw-element";
+import { measureText } from "@misenkashari/excalidraw-element";
 
-import { isTextElement } from "@excalidraw/element";
+import { isTextElement } from "@misenkashari/excalidraw-element";
 
-import { CaptureUpdateAction } from "@excalidraw/element";
+import { CaptureUpdateAction } from "@misenkashari/excalidraw-element";
 
 import { getSelectedElements } from "../scene";
 
