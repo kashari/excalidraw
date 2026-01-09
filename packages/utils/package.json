@@ -1,6 +1,6 @@
 {
-  "name": "@excalidraw/utils",
-  "version": "0.1.2",
+  "name": "@misenkashari/excalidraw-utils",
+  "version": "1.0.3",
   "type": "module",
   "types": "./dist/types/utils/src/index.d.ts",
   "main": "./dist/prod/index.js",
@@ -66,8 +66,8 @@
     "wawoff2": "2.0.1",
     "which": "4.0.0"
   },
-  "bugs": "https://github.com/excalidraw/excalidraw/issues",
-  "repository": "https://github.com/excalidraw/excalidraw",
+  "bugs": "https://github.com/kashari/excalidraw/issues",
+  "repository": "https://github.com/kashari/excalidraw",
   "scripts": {
     "gen:types": "rimraf types && tsc",
     "build:esm": "rimraf dist && node ../../scripts/buildUtils.js && yarn gen:types"
