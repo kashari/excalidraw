@@ -1050,10 +1050,6 @@ export const getElementShape = <Point extends GlobalPoint | LocalPoint>(
   switch (element.type) {
     case "rectangle":
     case "diamond":
-    case "triangle":
-    case "hexagon":
-    case "heart":
-    case "star":
     case "frame":
     case "magicframe":
     case "embeddable":
@@ -1062,6 +1058,83 @@ export const getElementShape = <Point extends GlobalPoint | LocalPoint>(
     case "text":
     case "selection":
       return getPolygonShape(element as any);
+    case "triangle": {
+      const [topX, topY, leftX, leftY, rightX, rightY] = getTrianglePoints(element);
+      const { angle, x, y, width, height } = element;
+      const cx = x + width / 2;
+      const cy = y + height / 2;
+      const center: Point = pointFrom(cx, cy);
+      
+      return {
+        type: "polygon",
+        data: [
+          pointRotateRads(pointFrom(x + topX, y + topY), center, angle),
+          pointRotateRads(pointFrom(x + leftX, y + leftY), center, angle),
+          pointRotateRads(pointFrom(x + rightX, y + rightY), center, angle),
+          pointRotateRads(pointFrom(x + topX, y + topY), center, angle),
+        ] as any,
+      };
+    }
+    case "hexagon": {
+      const points = getHexagonPoints(element);
+      const { angle, x, y, width, height } = element;
+      const cx = x + width / 2;
+      const cy = y + height / 2;
+      const center: Point = pointFrom(cx, cy);
+      
+      const polygonPoints: Point[] = [];
+      for (let i = 0; i < points.length; i += 2) {
+        polygonPoints.push(
+          pointRotateRads(pointFrom(x + points[i], y + points[i + 1]), center, angle)
+        );
+      }
+      polygonPoints.push(polygonPoints[0]); // close the polygon
+      
+      return {
+        type: "polygon",
+        data: polygonPoints as any,
+      };
+    }
+    case "heart": {
+      const points = getHeartPoints(element);
+      const { angle, x, y, width, height } = element;
+      const cx = x + width / 2;
+      const cy = y + height / 2;
+      const center: Point = pointFrom(cx, cy);
+      
+      const polygonPoints: Point[] = [];
+      for (let i = 0; i < points.length; i += 2) {
+        polygonPoints.push(
+          pointRotateRads(pointFrom(x + points[i], y + points[i + 1]), center, angle)
+        );
+      }
+      polygonPoints.push(polygonPoints[0]); // close the polygon
+      
+      return {
+        type: "polygon",
+        data: polygonPoints as any,
+      };
+    }
+    case "star": {
+      const points = getStarPoints(element);
+      const { angle, x, y, width, height } = element;
+      const cx = x + width / 2;
+      const cy = y + height / 2;
+      const center: Point = pointFrom(cx, cy);
+      
+      const polygonPoints: Point[] = [];
+      for (let i = 0; i < points.length; i += 2) {
+        polygonPoints.push(
+          pointRotateRads(pointFrom(x + points[i], y + points[i + 1]), center, angle)
+        );
+      }
+      polygonPoints.push(polygonPoints[0]); // close the polygon
+      
+      return {
+        type: "polygon",
+        data: polygonPoints as any,
+      };
+    }
     case "arrow":
     case "line": {
       const roughShape = ShapeCache.generateElementShape(element, null)[0];
