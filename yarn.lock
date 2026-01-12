@@ -2145,20 +2145,6 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@misenkashari/excalidraw-common@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@misenkashari/excalidraw-common/-/excalidraw-common-1.0.3.tgz#a4f8aa62b206d5991a929512baa39a34de587eef"
-  integrity sha512-Zgc0369qSdNK5aDCK2uOdtyHT44e5KUUf0rk2G3olghZvHNblay6nVAQQGCaHBt+cT3sBjJgio6lUyh4vBFoCg==
-  dependencies:
-    tinycolor2 "1.6.0"
-
-"@misenkashari/excalidraw-math@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@misenkashari/excalidraw-math/-/excalidraw-math-1.0.3.tgz#5304c514fd628c7375c1b8e4c38d29714e823291"
-  integrity sha512-yGm6gQSoUajHC50NZ1d+LkQqAUFHrYH4t3MW440ivEk9Hm2svmGHQvU2Dy+znGJE4sRCTY9YKZE362eLlzH++A==
-  dependencies:
-    "@misenkashari/excalidraw-common" "1.0.3"
-
 "@next/env@14.1.4":
   version "14.1.4"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-14.1.4.tgz#432e80651733fbd67230bf262aee28be65252674"

@@ -497,6 +497,10 @@ export const restoreElement = (
     case "diamond":
     case "iframe":
     case "embeddable":
+    case "triangle":
+    case "hexagon":
+    case "heart":
+    case "star":
       return restoreElementWithProperties(element, {});
     case "magicframe":
     case "frame":
